@@ -4,7 +4,7 @@ export type Skill = {
 };
 
 export type Skills = {
-  Expertise: Skill[];
+  frontend: Skill[];
   backend: Skill[];
   tools: Skill[];
 };

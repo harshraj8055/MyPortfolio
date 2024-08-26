@@ -12,7 +12,7 @@ export default function Project({
   return (
     <div
       className={cn(
-        "flex w-full flex-col rounded-lg border bg-[#1e293b] lg:w-[48%]",
+        "flex w-full flex-col rounded-lg border bg-[#1e293b] lg:w-[42%]",
       )}
     >
       <ProjectTitleButtons />
@@ -22,9 +22,9 @@ export default function Project({
         <Image
           src={imageUrl}
           width={1920}
-          height={1080}
+          height={1000}
           alt="project-main"
-          className="h-full w-full rounded-md"
+          className="h-full w-full rounded-md bg-white"
         />
       </div>
 

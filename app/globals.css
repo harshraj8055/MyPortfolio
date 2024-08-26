@@ -68,15 +68,13 @@
   20% {
     content: "Product Manager";
   }
-  21%,
-  40% {
-    content: "PM fellow @ Product Space";
-  }
-  41%,
-  60% {
+  33%,
+  
+  34%,
+  67% {
     content: "Web Developer";
   }
-  61%,
+  68%,
   100% {
     content: "Tech Innovator";
   }

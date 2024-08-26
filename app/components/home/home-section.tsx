@@ -1,5 +1,6 @@
 import BlobAnimation from "../ui/blob-animation";
 import IntroPanel from "./intro-panel";
+import propic from "../../../public/svg/propic.jpg";
 
 export default function HomeSection() {
   return (
@@ -9,6 +10,7 @@ export default function HomeSection() {
         <div className="-z-10 -mt-10">
           <BlobAnimation />
         </div>
+        <div><img src = {propic }/></div>
       </div>
     </section>
   );

@@ -10,7 +10,6 @@ export default function HomeSection() {
         <div className="-z-10 -mt-10">
           <BlobAnimation />
         </div>
-        <div><img src = {propic }/></div>
       </div>
     </section>
   );

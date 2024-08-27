@@ -5,7 +5,7 @@ const PROJECTS: Projects = [
   {
     name: "Healthify Me",
     description:
-      "MyFitnessPal is a leading health and fitness tracking application that serves a diverse user base. The app primarily focuses on diet tracking, exercise logging, and overall wellness.Improve user engagement and user retention, which are critical for maintaining a loyal user base, driving premium subscriptions, and increasing revenue.",
+      "🚀MyFitnessPal is a leading health and fitness tracking application that serves a diverse user base. The app primarily focuses on diet tracking, exercise logging, and overall wellness.Improve user engagement and user retention, which are critical for maintaining a loyal user base, driving premium subscriptions, and increasing revenue.",
 
     imageUrl: "/skills/HealthifyMe.svg",
     urls: {

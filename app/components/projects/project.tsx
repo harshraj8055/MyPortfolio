@@ -1,4 +1,4 @@
-"use client";
+
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import ProjectTitleButtons from "../ui/project-title-btns";
@@ -13,14 +13,13 @@ export default function Project({
   return (
     <div
       className={cn(
-        "group relative flex w-full flex-col rounded-lg border bg-[#1e293b] lg:w-[40%] transition-all duration-300 transform hover:scale-105"
+        "flex w-full flex-col rounded-lg border bg-[#1e293b] lg:w-[42%]",
       )}
-      onClick={() => showProjectDetails(name)}
     >
       <ProjectTitleButtons />
 
       {/* display  */}
-      <div className="aspect-video w-full rounded-md p-1 lg:p-3">
+      <div className="aspect-video w-full rounded-md p-2 lg:p-3">
         <Image
           src={imageUrl}
           width={1920}
@@ -64,40 +63,6 @@ export default function Project({
           </span>
         </div>
       </div>
-
-      {/* Hidden details section */}
-      <div
-        id={`project-details-${name}`}
-        className="absolute inset-0 hidden p-4 bg-black bg-opacity-90 text-white z-10 transition-all duration-300"
-      >
-        <div className="flex justify-between items-center">
-          <h2 className="text-3xl">{name}</h2>
-          <button
-            className="text-xl font-bold"
-            onClick={(e) => {
-              e.stopPropagation();
-              hideProjectDetails(name);
-            }}
-          >
-            &times;
-          </button>
-        </div>
-        <p className="mt-4">{description}</p>
-      </div>
     </div>
   );
-}
-
-function showProjectDetails(name: string) {
-  const detailsElement = document.getElementById(`project-details-${name}`);
-  if (detailsElement) {
-    detailsElement.style.display = 'block';
-  }
-}
-
-function hideProjectDetails(name: string) {
-  const detailsElement = document.getElementById(`project-details-${name}`);
-  if (detailsElement) {
-    detailsElement.style.display = 'none';
-  }
 }

@@ -22,7 +22,7 @@ export default function Skills() {
       <div className="flex w-full flex-col justify-between gap-8 lg:flex-row">
         {/* backend  */}
         <div className="w-full lg:w-[45%] space-y-4">
-          <h4 className="text-center font-semibold text-typewriter">Backend</h4>
+          <h4 className="text-center font-semibold text-typewriter">Web Dev</h4>
           <div>
             <InfiniteCarousel data={skills.backend} reverse={true} />
           </div>

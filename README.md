@@ -8,7 +8,7 @@
   </kbd>
 </p>
 
-## View live preview **[here](https://programmer-Harsh Raj.vercel.app)**.
+## View live preview **[here](https://harsh-portfolio-omega-nine.vercel.app/)**.
 
 ## Sections 📚
 
